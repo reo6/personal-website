@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #222831;
+  --text: #EEEEEE;
+  --primary: #D65A31;
+  --secondary: #393E46;
+}
+
+body {
+  color: var(--text);
+  background-color: var(--background);
+  font-family: 'Inter', sans-serif;}
