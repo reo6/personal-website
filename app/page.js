@@ -59,7 +59,7 @@ const PROJECTS = [
 function ProjectCard({ title, description, url }) {
   return (
     <a href={url} target="_blank" rel="noopener noreferrer" className="block h-full">
-      <div className="shadow-lg rounded-lg p-4 bg-custom-sec transition duration-200 text-white h-full flex flex-col">
+      <div className="shadow-lg rounded-lg p-4 bg-custom-sec transition duration-200 text-white h-full flex flex-col hover:scale-105">
         <div className="flex-grow">
           <h2 className="text-xl font-bold mb-2">{title}</h2>
           <p className="text-gray-300">{description}</p>
