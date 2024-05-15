@@ -42,9 +42,9 @@ const PROJECTS = [
   },
   {
     id: 5,
-    title: "rpaste",
-    description: "Simple pastebin application written in Flask.",
-    url: "https://github.com/reo6/rpaste",
+    title: "rsxn",
+    description: "Tiny Minecraft server launcher.",
+    url: "https://github.com/reo6/rsxn",
   },
   {
     id: 6,
